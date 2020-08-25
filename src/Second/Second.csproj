@@ -1,0 +1,31 @@
+<Project Sdk="MSBuild.Sdk.SqlProj/1.3.0">
+
+  <!-- Project / package properties -->
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <RestoreProjectStyle>PackageReference</RestoreProjectStyle>
+    <PackageId>Second</PackageId>
+    <description>Second database project</description>
+    <authors>Jeff Rosenberg</authors>
+    <Company>ICF Next</Company>
+  </PropertyGroup>
+
+  <!-- Database configuration properties -->
+  <!-- see https://docs.microsoft.com/en-us/dotnet/api/microsoft.sqlserver.dac.model.tsqlmodeloptions -->
+  <!-- Most configuration properties are deferred to the main project file -->
+  <PropertyGroup>
+    <SqlServerVersion>Sql130</SqlServerVersion>
+  </PropertyGroup>
+
+  <!-- File includes / excludes -->
+  <!-- MSBuild.Sdk.SqlProj Sdk defaults to including all *.sql files -->
+  <ItemGroup>
+    <Content Remove="Scripts/**/*.sql" />
+    <Content Remove="target/**/*.sql" />
+  </ItemGroup>
+
+  <!-- References to dacpac dependencies -->
+  <ItemGroup>
+    <PackageReference Include="Base" Version="1.*-*" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,14 @@
+# MSBuild and SSDT
+obj/
+bin/
+Debug/
+Release/
+.vs/
+*.dacpac
+*.jfm
+*.sqlproj
+*.user
+*.dbmdl
+
+# OS
+.DS_Store
