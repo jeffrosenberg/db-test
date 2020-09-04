@@ -1,0 +1,74 @@
+{
+  "runtimeTarget": {
+    "name": ".NETStandard,Version=v2.0/",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETStandard,Version=v2.0": {},
+    ".NETStandard,Version=v2.0/": {
+      "Plus/1.0.0": {
+        "dependencies": {
+          "Base": "1.0.1-beta-g874c7b9143",
+          "NETStandard.Library": "2.0.3",
+          "Nerdbank.GitVersioning": "3.2.31",
+          "Second": "1.0.1-beta-g874c7b9143"
+        },
+        "runtime": {
+          "Plus.dacpac": {}
+        }
+      },
+      "Base/1.0.1-beta-g874c7b9143": {},
+      "Microsoft.NETCore.Platforms/1.1.0": {},
+      "Nerdbank.GitVersioning/3.2.31": {},
+      "NETStandard.Library/2.0.3": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.1.0"
+        }
+      },
+      "Second/1.0.1-beta-g874c7b9143": {}
+    }
+  },
+  "libraries": {
+    "Plus/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Base/1.0.1-beta-g874c7b9143": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-P6KXe5YlRU1Bcl8PFgK8p6LW1blzn9LG6p3ffdbH1Jp2m6m8V1/zl4IGMYnfegrApmIYz1DJRKLpJjBoHuHlsg==",
+      "path": "base/1.0.1-beta-g874c7b9143",
+      "hashPath": "base.1.0.1-beta-g874c7b9143.nupkg.sha512"
+    },
+    "Microsoft.NETCore.Platforms/1.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-kz0PEW2lhqygehI/d6XsPCQzD7ff7gUJaVGPVETX611eadGsA3A877GdSlU0LRVMCTH/+P3o2iDTak+S08V2+A==",
+      "path": "microsoft.netcore.platforms/1.1.0",
+      "hashPath": "microsoft.netcore.platforms.1.1.0.nupkg.sha512"
+    },
+    "Nerdbank.GitVersioning/3.2.31": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-19grBnpqHLxViOt1cwE+cI+brQ2swdm4gfM97P+9KbbgWGfXtdy4EmpVAkUZ3MgntFYYbUvfldM4pUOmks5q0w==",
+      "path": "nerdbank.gitversioning/3.2.31",
+      "hashPath": "nerdbank.gitversioning.3.2.31.nupkg.sha512"
+    },
+    "NETStandard.Library/2.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-st47PosZSHrjECdjeIzZQbzivYBJFv6P2nv4cj2ypdI204DO+vZ7l5raGMiX4eXMJ53RfOIg+/s4DHVZ54Nu2A==",
+      "path": "netstandard.library/2.0.3",
+      "hashPath": "netstandard.library.2.0.3.nupkg.sha512"
+    },
+    "Second/1.0.1-beta-g874c7b9143": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-rvYUYKGzrojV8iZvIWWPPevZ2B3JOpymQ8iUydTWAGJ0JC1OM/OxKqelybgYvigUoBjU0ynta40gbh+YumqpTA==",
+      "path": "second/1.0.1-beta-g874c7b9143",
+      "hashPath": "second.1.0.1-beta-g874c7b9143.nupkg.sha512"
+    }
+  }
+}

@@ -28,5 +28,6 @@
   <ItemGroup>
     <PackageReference Include="Base" Version="1.*-*" />
     <PackageReference Include="Second" Version="1.*-*" />
+    <!--<PackageReference Include="master" Version="130.0.0" />-->
   </ItemGroup>
 </Project>
