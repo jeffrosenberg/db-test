@@ -12,13 +12,15 @@
           "Base": "1.0.1-beta-g874c7b9143",
           "NETStandard.Library": "2.0.3",
           "Nerdbank.GitVersioning": "3.2.31",
-          "Second": "1.0.1-beta-g874c7b9143"
+          "Second": "1.0.1-beta-g874c7b9143",
+          "master": "130.0.0"
         },
         "runtime": {
           "Plus.dacpac": {}
         }
       },
       "Base/1.0.1-beta-g874c7b9143": {},
+      "master/130.0.0": {},
       "Microsoft.NETCore.Platforms/1.1.0": {},
       "Nerdbank.GitVersioning/3.2.31": {},
       "NETStandard.Library/2.0.3": {
@@ -41,6 +43,13 @@
       "sha512": "sha512-P6KXe5YlRU1Bcl8PFgK8p6LW1blzn9LG6p3ffdbH1Jp2m6m8V1/zl4IGMYnfegrApmIYz1DJRKLpJjBoHuHlsg==",
       "path": "base/1.0.1-beta-g874c7b9143",
       "hashPath": "base.1.0.1-beta-g874c7b9143.nupkg.sha512"
+    },
+    "master/130.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-hJ/b6sVLC+BXZPj4xv50Ra7KhzJqXmg/NHheEbJ1nn8HCf//cvjUI7URiDd2x5ZS3niCdvz43FjsRxWn0KyE9Q==",
+      "path": "master/130.0.0",
+      "hashPath": "master.130.0.0.nupkg.sha512"
     },
     "Microsoft.NETCore.Platforms/1.1.0": {
       "type": "package",
