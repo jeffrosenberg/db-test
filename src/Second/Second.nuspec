@@ -6,7 +6,7 @@
     <description>$description$</description>
     <authors>$authors$</authors>
     <owners>ICF Next</owners>
-    <copyright>(c) 2020 ICF Next</copyright>
+    <copyright>(c) 2022 Jeff Rosenberg</copyright>
     <packageTypes>
       <packageType name="dacpac" />
     </packageTypes>

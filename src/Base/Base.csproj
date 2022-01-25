@@ -1,4 +1,4 @@
-<Project Sdk="MSBuild.Sdk.SqlProj/1.5.1">
+<Project Sdk="MSBuild.Sdk.SqlProj/1.17.3">
 
   <!-- Project / package properties -->
   <PropertyGroup>
@@ -7,7 +7,7 @@
     <PackageId>Base</PackageId>
     <description>Base database project</description>
     <authors>Jeff Rosenberg</authors>
-    <Company>ICF Next</Company>
+    <version>1.1.0</version>
   </PropertyGroup>
 
   <!-- Database configuration properties -->
